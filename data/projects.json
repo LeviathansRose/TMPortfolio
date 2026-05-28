@@ -6,9 +6,7 @@
         "date": "January - May 2026",
         "cardTitle": "Fireflies - Game Team Leader",
         "thumbnail": "img/fireflies_scout.png",
-        "thumbnailAlt": "Fireflies Project Thumbnail",
         "banner": "img/fireflies_banner.jpg",
-        "bannerAlt": "Banner image for the Fireflies Project",
         "tags": [
             "unreal",
             "game-design",
@@ -22,9 +20,7 @@
                 "label": "Website",
                 "url": "https://dtc-wsuv.org/projects/fireflies",
                 "icon": "svg/web_icon.svg",
-                "iconAlt": "",
-                "style": "icon",
-                "ariaLabel": "Open Fireflies project website"
+                "style": "icon"
             }
         ],
         "roleHighlights": [
@@ -41,9 +37,7 @@
         "date": "April 2025 - Present",
         "cardTitle": "RTS-Roguelike - Project Manager and Programmer",
         "thumbnail": "img/rlrts_banner.png",
-        "thumbnailAlt": "RTS-Roguelike Project Thumbnail",
         "banner": "img/rlrts_banner.png",
-        "bannerAlt": "Banner image for the RTS-Roguelike Project",
         "tags": [
             "unity",
             "csharp",
@@ -58,9 +52,7 @@
                 "label": "Website",
                 "url": "https://dtc-wsuv.org/tmattole24/InteractiveGDD/",
                 "icon": "svg/web_icon.svg",
-                "iconAlt": "",
-                "style": "icon",
-                "ariaLabel": "Open RTS-Roguelike project website"
+                "style": "icon"
             }
         ],
         "roleHighlights": [
@@ -78,9 +70,7 @@
         "date": "January - April 2025",
         "cardTitle": "Tic-Tac-Total War - Project Manager and Programmer",
         "thumbnail": "img/tictactotalwar_banner.png",
-        "thumbnailAlt": "Tic-Tac-Total War Project Thumbnail",
         "banner": "img/tictactotalwar_banner.png",
-        "bannerAlt": "Banner image for the Tic-Tac-Total War Project",
         "tags": [
             "unity",
             "csharp",
@@ -94,16 +84,12 @@
             {
                 "url": "https://leviathansrose.itch.io/tic-tac-total-war",
                 "icon": "svg/itchio_logo.svg",
-                "iconAlt": "The logo for the Itch.io webpage.",
-                "style": "itch-logo",
-                "ariaLabel": "Open Tic-Tac-Total War Itch.io page"
+                "style": "itch-logo"
             },
             {
                 "url": "https://github.com/forgotten-ancient/Tic-Tac-Total-War",
                 "icon": "svg/github_logo.svg",
-                "iconAlt": "The logo for the GitHub webpage.",
-                "style": "itch-logo",
-                "ariaLabel": "Open Tic-Tac-Total War GitHub repository"
+                "style": "itch-logo"
             }
         ],
         "roleHighlights": [
@@ -118,9 +104,7 @@
         "date": "March 2025",
         "cardTitle": "SuperGame Animated Poster - Designer",
         "thumbnail": "img/supergameposter.jpg",
-        "thumbnailAlt": "SuperGame Animated Poster Project Thumbnail",
         "banner": "vid/supergameposter.mp4",
-        "bannerAlt": "Banner image for the SuperGame Animated Poster Project",
         "tags": [
             "adobe-after-effects",
             "adobe-illustrator"
@@ -138,9 +122,7 @@
         "date": "April 2025",
         "cardTitle": "Cowardly Blocks - Programmer",
         "thumbnail": "img/cowardlyblocks.jpg",
-        "thumbnailAlt": "Cowardly Blocks Project Thumbnail",
         "banner": "img/cowardlyblocks.jpg",
-        "bannerAlt": "Banner image for the Cowardly Blocks Project",
         "tags": [
             "html",
             "github",
@@ -154,16 +136,12 @@
                 "label": "Website",
                 "url": "https://dtc-wsuv.org/tmattole24/final477/",
                 "icon": "svg/web_icon.svg",
-                "iconAlt": "",
-                "style": "icon",
-                "ariaLabel": "Open Cowardly Blocks project website"
+                "style": "icon"
             },
             {
                 "url": "https://github.com/LeviathansRose/TM477CowardlyBlocks",
                 "icon": "svg/github_logo.svg",
-                "iconAlt": "The logo for the GitHub webpage.",
-                "style": "itch-logo",
-                "ariaLabel": "Open Cowardly Blocks GitHub repository"
+                "style": "itch-logo"
             }
         ],
         "roleHighlights": [
@@ -179,9 +157,7 @@
         "date": "May 2024",
         "cardTitle": "The Puzzle - Programmer",
         "thumbnail": "img/thepuzzle.png",
-        "thumbnailAlt": "The Puzzle Project Thumbnail",
         "banner": "img/thepuzzle.png",
-        "bannerAlt": "Banner image for the The Puzzle Project",
         "tags": [
             "game-design",
             "javascript",
@@ -195,16 +171,12 @@
                 "label": "Website",
                 "url": "https://dtc-wsuv.org/tmattole24/narrative/",
                 "icon": "svg/web_icon.svg",
-                "iconAlt": "",
-                "style": "icon",
-                "ariaLabel": "Open 354 Hypermedia project website"
+                "style": "icon"
             },
             {
                 "url": "https://github.com/LeviathansRose/TM355Narrative",
                 "icon": "svg/github_logo.svg",
-                "iconAlt": "The logo for the GitHub webpage.",
-                "style": "itch-logo",
-                "ariaLabel": "Open The Puzzle GitHub repository"
+                "style": "itch-logo"
             }
         ],
         "roleHighlights": [
@@ -220,9 +192,7 @@
         "date": "February 2025",
         "cardTitle": "Everybody is in their own lane - Programmer",
         "thumbnail": "img/inownlane.jpg",
-        "thumbnailAlt": "Everybody is in their own lane Project Thumbnail",
         "banner": "img/inownlane.jpg",
-        "bannerAlt": "Banner image for the Everybody is in their own lane Project",
         "tags": [
             "html",
             "github",
@@ -235,16 +205,12 @@
                 "label": "Website",
                 "url": "https://dtc-wsuv.org/tmattole24/elit/",
                 "icon": "svg/web_icon.svg",
-                "iconAlt": "",
-                "style": "icon",
-                "ariaLabel": "Open Everybody is in their own lane project website"
+                "style": "icon"
             },
             {
                 "url": "https://github.com/LeviathansRose/TM477E-Literature",
                 "icon": "svg/github_logo.svg",
-                "iconAlt": "The logo for the GitHub webpage.",
-                "style": "itch-logo",
-                "ariaLabel": "Open Everybody is in their own lane GitHub repository"
+                "style": "itch-logo"
             }
         ],
         "roleHighlights": [
@@ -254,15 +220,31 @@
         ]
     },
     {
+        "id": "unfriendlyencounter",
+        "title": "Unfriendly Encounter",
+        "role": "Designer",
+        "date": "April 2025",
+        "cardTitle": "Unfriendly Encounter - Designer",
+        "thumbnail": "img/unfriendlyencounter.png",
+        "banner": "vid/unfriendlyencounter.mp4",
+        "tags": [
+            "adobe-photoshop",
+            "adobe-audition"
+        ],
+        "abstract": "This Audio Story focuses on a monster disguised as a human. After walking into a shop and trying to buy something they were found out and chased away.",
+        "roleHighlights": [
+            "Designed the thumbnail in Adobe Photoshop.",
+            "Created most of the sounds using Foley techniques."
+        ]
+    },
+    {
         "id": "paybackprank",
         "title": "Payback Prank",
         "role": "Programmer",
         "date": "April 2026",
         "cardTitle": "Payback Prank - Programmer",
         "thumbnail": "img/paybackprank.png",
-        "thumbnailAlt": "Payback Prank Project Thumbnail",
         "banner": "img/paybackprank.png",
-        "bannerAlt": "Banner image for the Tic-Tac-Total War Project",
         "tags": [
             "javascript",
             "html",
@@ -275,16 +257,12 @@
                 "label": "Website",
                 "url": "https://dtc-wsuv.org/tmattole24/354final/",
                 "icon": "svg/web_icon.svg",
-                "iconAlt": "",
-                "style": "icon",
-                "ariaLabel": "Open Payback Prank project website"
+                "style": "icon"
             },
             {
                 "url": "https://github.com/LeviathansRose/TM354Final",
                 "icon": "svg/github_logo.svg",
-                "iconAlt": "The logo for the GitHub webpage.",
-                "style": "itch-logo",
-                "ariaLabel": "Open Payback Prank GitHub repository"
+                "style": "itch-logo"
             }
         ],
         "roleHighlights": [
@@ -299,9 +277,7 @@
         "date": "December 2025",
         "cardTitle": "Interactive GDD - Programmer",
         "thumbnail": "img/interactivegdd.jpg",
-        "thumbnailAlt": "Interactive GDD Project Thumbnail",
         "banner": "img/interactivegdd.jpg",
-        "bannerAlt": "Banner image for the Interactive GDD Topic Project",
         "tags": [
             "html",
             "javascript",
@@ -314,16 +290,12 @@
                 "label": "Website",
                 "url": "https://dtc-wsuv.org/tmattole24/InteractiveGDD/",
                 "icon": "svg/web_icon.svg",
-                "iconAlt": "",
-                "style": "icon",
-                "ariaLabel": "Open Interactive GDD project website"
+                "style": "icon"
             },
             {
                 "url": "https://github.com/LeviathansRose/RTS-RL-InteractiveGDD",
                 "icon": "svg/github_logo.svg",
-                "iconAlt": "The logo for the GitHub webpage.",
-                "style": "itch-logo",
-                "ariaLabel": "Open Interactive GDD GitHub repository"
+                "style": "itch-logo"
             }
         ],
         "roleHighlights": [
@@ -339,9 +311,7 @@
         "date": "April 2026",
         "cardTitle": "354 Hypermedia Project - Programmer",
         "thumbnail": "img/354hypermedia.png",
-        "thumbnailAlt": "354 Hypermedia Project Thumbnail",
         "banner": "img/354hypermedia.png",
-        "bannerAlt": "Banner image for the 354 Hypermedia Project",
         "tags": [
             "game-design",
             "csharp",
@@ -354,9 +324,7 @@
                 "label": "Website",
                 "url": "https://dtc-wsuv.org/tmattole24/354hypermedia/",
                 "icon": "svg/web_icon.svg",
-                "iconAlt": "",
-                "style": "icon",
-                "ariaLabel": "Open 354 Hypermedia project website"
+                "style": "icon"
             }
         ],
         "roleHighlights": [
@@ -371,9 +339,7 @@
         "date": "February 2024",
         "cardTitle": "Single Page Single Topic - Programmer",
         "thumbnail": "img/spst.jpg",
-        "thumbnailAlt": "Single Page Single Topic Project Thumbnail",
         "banner": "img/spst.jpg",
-        "bannerAlt": "Banner image for the Single Page Single Topic Project",
         "tags": [
             "html",
             "github",
@@ -385,16 +351,12 @@
                 "label": "Website",
                 "url": "https://dtc-wsuv.org/tmattole24/spst-project/",
                 "icon": "svg/web_icon.svg",
-                "iconAlt": "",
-                "style": "icon",
-                "ariaLabel": "Open Single Page Single Topic project website"
+                "style": "icon"
             },
             {
                 "url": "https://github.com/LeviathansRose/TM355SPSTWebsite",
                 "icon": "svg/github_logo.svg",
-                "iconAlt": "The logo for the GitHub webpage.",
-                "style": "itch-logo",
-                "ariaLabel": "Open Single Page Single Topic GitHub repository"
+                "style": "itch-logo"
             }
         ],
         "roleHighlights": [

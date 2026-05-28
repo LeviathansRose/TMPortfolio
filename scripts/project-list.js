@@ -9,6 +9,10 @@
         return String(value).replace(/"/g, "&quot;");
     }
 
+    function getProjectThumbnailAlt(project) {
+        return project.title + " Project Thumbnail";
+    }
+
     function renderProjectCard(project) {
         const tagClasses = project.tags.map(function (tag) {
             return "tag-" + tag;
@@ -16,7 +20,7 @@
 
         return [
             '<a class="project-card ' + tagClasses + '" href="project.html?id=' + encodeURIComponent(project.id) + '" aria-label="Open ' + escapeAttribute(project.title) + ' project page">',
-            '    <img class="project-card-image" src="' + project.thumbnail + '" alt="' + escapeAttribute(project.thumbnailAlt) + '">',
+            '    <img class="project-card-image" src="' + project.thumbnail + '" alt="' + escapeAttribute(getProjectThumbnailAlt(project)) + '">',
             "    <p><span>" + project.cardTitle + "</span></p>",
             "</a>"
         ].join("");

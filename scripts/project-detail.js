@@ -16,8 +16,45 @@
         }
     }
 
+    function escapeAttribute(value) {
+        return String(value).replace(/"/g, "&quot;");
+    }
+
     function isVideoPath(path) {
         return /\.(mp4|webm|ogg)$/i.test(path);
+    }
+
+    function getProjectBannerAlt(project) {
+        return "Banner image for the " + project.title + " Project";
+    }
+
+    function getProjectVideoLabel(project) {
+        return project.title + " project video";
+    }
+
+    function getLinkType(link) {
+        const url = link.url || "";
+        const icon = link.icon || "";
+        const label = link.label || "";
+        const linkText = (url + " " + icon + " " + label).toLowerCase();
+
+        if (linkText.includes("github")) {
+            return "GitHub repository";
+        }
+
+        if (linkText.includes("itch")) {
+            return "Itch.io page";
+        }
+
+        if (label) {
+            return label.toLowerCase() === "website" ? "project website" : label;
+        }
+
+        return "project link";
+    }
+
+    function getLinkAriaLabel(project, link) {
+        return "Open " + project.title + " " + getLinkType(link);
     }
 
     function renderHero(project) {
@@ -32,7 +69,7 @@
         if (isVideoPath(project.banner)) {
             const video = document.createElement("video");
             video.src = project.banner;
-            video.setAttribute("aria-label", project.bannerAlt || project.title + " project video");
+            video.setAttribute("aria-label", getProjectVideoLabel(project));
             video.controls = true;
             video.autoplay = true;
             video.muted = true;
@@ -44,7 +81,7 @@
 
         const image = document.createElement("img");
         image.src = project.banner;
-        image.alt = project.bannerAlt || "";
+        image.alt = getProjectBannerAlt(project);
         hero.appendChild(image);
     }
 
@@ -67,8 +104,8 @@
             const label = link.label ? "<span>" + link.label + "</span>" : "";
 
             return [
-                '<a class="project-link ' + modifier + '" href="' + link.url + '" target="_blank" rel="noopener noreferrer" aria-label="' + link.ariaLabel + '">',
-                '    <img class="' + iconClass + '" src="' + link.icon + '" alt="' + link.iconAlt + '">',
+                '<a class="project-link ' + modifier + '" href="' + link.url + '" target="_blank" rel="noopener noreferrer" aria-label="' + escapeAttribute(getLinkAriaLabel(project, link)) + '">',
+                '    <img class="' + iconClass + '" src="' + link.icon + '" alt="">',
                 "    " + label,
                 "</a>"
             ].join("");
