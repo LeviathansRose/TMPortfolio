@@ -394,7 +394,7 @@ body {
 }
 
 .filter-menu.is-open {
-    max-height: 540px;
+    max-height: 1600px;
     padding: 90px 20px 20px;
     opacity: 1;
 }
