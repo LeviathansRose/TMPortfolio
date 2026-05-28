@@ -193,6 +193,46 @@
         ]
     },
     {
+        "id": "inownlane",
+        "title": "Everybody is in their own lane",
+        "role": "Programmer",
+        "date": "February 2025",
+        "cardTitle": "Everybody is in their own lane - Programmer",
+        "thumbnail": "img/inownlane.jpg",
+        "thumbnailAlt": "Everybody is in their own lane Project Thumbnail",
+        "banner": "img/inownlane.jpg",
+        "bannerAlt": "Banner image for the Everybody is in their own lane Project",
+        "tags": [
+            "html",
+            "github",
+            "javascript",
+            "visual-studio-code"
+        ],
+        "abstract": "In this website I created a visual digital story about the struggle of making friends. The names are randomly generated from an array and they avoid the cursor simulating a feeling of isolation for the viewer.",
+        "links": [
+            {
+                "label": "Website",
+                "url": "https://dtc-wsuv.org/tmattole24/elit/",
+                "icon": "svg/web_icon.svg",
+                "iconAlt": "",
+                "style": "icon",
+                "ariaLabel": "Open Everybody is in their own lane project website"
+            },
+            {
+                "url": "https://github.com/LeviathansRose/TM477E-Literature",
+                "icon": "svg/github_logo.svg",
+                "iconAlt": "The logo for the GitHub webpage.",
+                "style": "itch-logo",
+                "ariaLabel": "Open Everybody is in their own lane GitHub repository"
+            }
+        ],
+        "roleHighlights": [
+            "Programmed in HTML & Javascript using Visual Studio Code.",
+            "Designed and created from complete scratch.",
+            "Published the site onto GitHub where it is now managed."
+        ]
+    },
+    {
         "id": "paybackprank",
         "title": "Payback Prank",
         "role": "Programmer",
@@ -228,6 +268,46 @@
         ],
         "roleHighlights": [
             "Programmed in Javascript and HTML on Visual Studio Code.",
+            "Project was uploaded onto GitHub and is now managed there."
+        ]
+    },
+    {
+        "id": "interactivegdd",
+        "title": "Interactive GDD",
+        "role": "Programmer",
+        "date": "December 2025",
+        "cardTitle": "Interactive GDD - Programmer",
+        "thumbnail": "img/interactivegdd.jpg",
+        "thumbnailAlt": "Interactive GDD Project Thumbnail",
+        "banner": "img/interactivegdd.jpg",
+        "bannerAlt": "Banner image for the Interactive GDD Topic Project",
+        "tags": [
+            "html",
+            "javascript",
+            "github",
+            "visual-studio-code"
+        ],
+        "abstract": "This website was created to explain the current state of my game which was unnamed at the time (just called 'RTS-Roguelike'). It was first created to attract artists and 3D modelers to work on my game with me.",
+        "links": [
+            {
+                "label": "Website",
+                "url": "https://dtc-wsuv.org/tmattole24/InteractiveGDD/",
+                "icon": "svg/web_icon.svg",
+                "iconAlt": "",
+                "style": "icon",
+                "ariaLabel": "Open Interactive GDD project website"
+            },
+            {
+                "url": "https://github.com/LeviathansRose/RTS-RL-InteractiveGDD",
+                "icon": "svg/github_logo.svg",
+                "iconAlt": "The logo for the GitHub webpage.",
+                "style": "itch-logo",
+                "ariaLabel": "Open Interactive GDD GitHub repository"
+            }
+        ],
+        "roleHighlights": [
+            "Programmed in HTML & Javascript using Visual Studio Code.",
+            "Implemented code from examples online to create the background effect.",
             "Project was uploaded onto GitHub and is now managed there."
         ]
     },
