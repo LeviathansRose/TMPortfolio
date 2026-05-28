@@ -136,6 +136,13 @@
                 "iconAlt": "",
                 "style": "icon",
                 "ariaLabel": "Open 354 Hypermedia project website"
+            },
+            {
+                "url": "https://github.com/LeviathansRose/TM355Narrative",
+                "icon": "svg/github_logo.svg",
+                "iconAlt": "The logo for the GitHub webpage.",
+                "style": "itch-logo",
+                "ariaLabel": "Open The Puzzle GitHub repository"
             }
         ],
         "roleHighlights": [
@@ -169,6 +176,13 @@
                 "iconAlt": "",
                 "style": "icon",
                 "ariaLabel": "Open Payback Prank project website"
+            },
+            {
+                "url": "https://github.com/LeviathansRose/TM354Final",
+                "icon": "svg/github_logo.svg",
+                "iconAlt": "The logo for the GitHub webpage.",
+                "style": "itch-logo",
+                "ariaLabel": "Open Payback Prank GitHub repository"
             }
         ],
         "roleHighlights": [
