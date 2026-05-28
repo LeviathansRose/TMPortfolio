@@ -756,6 +756,10 @@ body {
     box-shadow: var(--shadow-soft);
 }
 
+.project-section[hidden] {
+    display: none;
+}
+
 .project-section h1,
 .project-section h2 {
     margin: 0;

@@ -12,18 +12,56 @@
         const element = document.querySelector(selector);
 
         if (element) {
-            element.textContent = value;
+            element.textContent = value || "";
         }
+    }
+
+    function isVideoPath(path) {
+        return /\.(mp4|webm|ogg)$/i.test(path);
+    }
+
+    function renderHero(project) {
+        const hero = document.querySelector("#project-hero");
+
+        if (!hero || !project.banner) {
+            return;
+        }
+
+        hero.innerHTML = "";
+
+        if (isVideoPath(project.banner)) {
+            const video = document.createElement("video");
+            video.src = project.banner;
+            video.setAttribute("aria-label", project.bannerAlt || project.title + " project video");
+            video.controls = true;
+            video.autoplay = true;
+            video.muted = true;
+            video.loop = true;
+            video.playsInline = true;
+            hero.appendChild(video);
+            return;
+        }
+
+        const image = document.createElement("img");
+        image.src = project.banner;
+        image.alt = project.bannerAlt || "";
+        hero.appendChild(image);
     }
 
     function renderLinks(project) {
         const linkRow = document.querySelector("#project-links");
+        const linksSection = document.querySelector("#project-links-section");
+        const links = project.links || [];
 
         if (!linkRow) {
             return;
         }
 
-        linkRow.innerHTML = project.links.map(function (link) {
+        if (linksSection) {
+            linksSection.hidden = links.length === 0;
+        }
+
+        linkRow.innerHTML = links.map(function (link) {
             const modifier = link.style === "itch-logo" ? "project-link--itch-logo" : "project-link--icon";
             const iconClass = link.style === "itch-logo" ? "project-link-itch-logo" : "project-link-icon";
             const label = link.label ? "<span>" + link.label + "</span>" : "";
@@ -39,27 +77,22 @@
 
     function renderHighlights(project) {
         const highlights = document.querySelector("#project-role-highlights");
+        const roleHighlights = project.roleHighlights || [];
 
         if (!highlights) {
             return;
         }
 
-        highlights.innerHTML = project.roleHighlights.map(function (highlight) {
+        highlights.innerHTML = roleHighlights.map(function (highlight) {
             return "<li>" + highlight + "</li>";
         }).join("");
     }
 
     function renderProject(project) {
-        const banner = document.querySelector("#project-banner");
-
         document.title = project.title + " | Tristan Mattole Portfolio";
         page.setAttribute("aria-label", project.title + " project page");
 
-        if (banner) {
-            banner.src = project.banner;
-            banner.alt = project.bannerAlt;
-        }
-
+        renderHero(project);
         setText("#project-abstract", project.abstract);
         setText("#project-role", project.role + ", " + project.date);
         renderLinks(project);

@@ -111,6 +111,26 @@
         ]
     },
     {
+        "id": "supergameposter",
+        "title": "SuperGame Animated Poster",
+        "role": "Designer",
+        "date": "March 2025",
+        "cardTitle": "SuperGame Animated Poster - Designer",
+        "thumbnail": "img/supergameposter.jpg",
+        "thumbnailAlt": "SuperGame Animated Poster Project Thumbnail",
+        "banner": "vid/supergameposter.mp4",
+        "bannerAlt": "Banner image for the SuperGame Animated Poster Project",
+        "tags": [
+            "adobe-after-effects",
+            "adobe-illustrator"
+        ],
+        "abstract": "This poster was created to demonstrate my expertise at using Adobe Illustrator and After Effects. While not an official poster it portrays real information except for the 'Food' section.",
+        "roleHighlights": [
+            "Created and designed the poster in Adobe Illustrator from Scratch.",
+            "Animated the poster in Adobe After Effects."
+        ]
+    },
+    {
         "id": "cowardlyblocks",
         "title": "Cowardly Blocks",
         "role": "Programmer",
