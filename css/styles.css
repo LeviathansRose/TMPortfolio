@@ -535,9 +535,27 @@ body {
     background: var(--card-grey);
     border-radius: var(--radius);
     margin-bottom: 24px;
+    max-height: 700px;
+    opacity: 1;
     text-decoration: none;
     box-shadow: var(--shadow-card);
-    transition: transform 220ms ease, box-shadow 220ms ease;
+    transition:
+        max-height 280ms ease,
+        min-height 280ms ease,
+        margin-bottom 280ms ease,
+        opacity 180ms ease,
+        transform 220ms ease,
+        box-shadow 220ms ease;
+}
+
+.project-card.is-filter-hidden {
+    min-height: 0 !important;
+    max-height: 0;
+    margin-bottom: 0;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(8px);
+    box-shadow: none;
 }
 
 .project-card::before {

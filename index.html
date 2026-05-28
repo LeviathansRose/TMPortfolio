@@ -9,8 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css?v=2026-05-06">
     <link rel="stylesheet" href="css/styles.css?v=2026-05-06">
-    <script defer src="scripts/isotope.pkgd.js"></script>
     <script defer src="scripts/app.js"></script>
+    <script defer src="scripts/project-data.js"></script>
+    <script defer src="scripts/project-list.js"></script>
 </head>
 <body data-node-id="36:54">
     <header class="nav-bar" data-node-id="36:98">
@@ -123,22 +124,7 @@
 
         <h1 class="projects-heading">Projects</h1>
 
-        <div class="projects-grid">
-            <a class="project-card tag-unreal tag-game-design tag-perforce tag-slack tag-basecamp" href="fireflies.html" aria-label="Open Fireflies project page">
-                <img class="project-card-image" src="img/fireflies_scout.png" alt="Fireflies Project Thumbnail">
-                <p><span>Fireflies - Game Team Leader</span></p>
-            </a>
-
-            <a class="project-card tag-unity tag-csharp tag-game-design tag-visual-studio-code tag-basecamp tag-trello" href="rts-roguelike.html" aria-label="Open RTS-Roguelike project page">
-                <img class="project-card-image" src="img/rlrts_banner.png" alt="RTS-Roguelike Project Thumbnail">
-                <p><span>RTS-Roguelike - Project Manager and Programmer</span></p>
-            </a>
-
-            <a class="project-card tag-unity tag-csharp tag-game-design tag-visual-studio-code tag-trello tag-github" href="tictactotalwar.html" aria-label="Open Tic-Tac-Total War project page">
-                <img class="project-card-image" src="img/tictactotalwar_banner.png" alt="Tic-Tac-Total War Project Thumbnail">
-                <p><span>Tic-Tac-Total War - Project Manager and Programmer</span></p>
-            </a>
-        </div>
+        <div class="projects-grid" aria-live="polite"></div>
     </main>
 
     <footer class="page-footer" data-node-id="57:518">

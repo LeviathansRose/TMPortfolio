@@ -1,0 +1,113 @@
+[
+    {
+        "id": "fireflies",
+        "title": "Fireflies",
+        "role": "Game Team Leader",
+        "date": "January - May 2026",
+        "cardTitle": "Fireflies - Game Team Leader",
+        "thumbnail": "img/fireflies_scout.png",
+        "thumbnailAlt": "Fireflies Project Thumbnail",
+        "banner": "img/fireflies_banner.jpg",
+        "bannerAlt": "Banner image for the Fireflies Project",
+        "tags": [
+            "unreal",
+            "game-design",
+            "perforce",
+            "slack",
+            "basecamp"
+        ],
+        "abstract": "A vertical slice of a 3D stealth puzzle-action adventure game set within a single section of a whimsical, dark cavern environment where light is both a tool and a risk. This project was created with and for Noctua Interactive.",
+        "links": [
+            {
+                "label": "Website",
+                "url": "https://dtc-wsuv.org/projects/fireflies",
+                "icon": "svg/web_icon.svg",
+                "iconAlt": "",
+                "style": "icon",
+                "ariaLabel": "Open Fireflies project website"
+            }
+        ],
+        "roleHighlights": [
+            "Directed a group of four other programmers in creating a vertical slice.",
+            "Conceptualized and programmed new game mechanics from the ground up.",
+            "Collaborated across multi-disciplinary teams to meet deadlines.",
+            "Implemented UI elements and models created from other teams."
+        ]
+    },
+    {
+        "id": "rts-roguelike",
+        "title": "RTS-Roguelike",
+        "role": "Project Manager and Programmer",
+        "date": "April 2025 - Present",
+        "cardTitle": "RTS-Roguelike - Project Manager and Programmer",
+        "thumbnail": "img/rlrts_banner.png",
+        "thumbnailAlt": "RTS-Roguelike Project Thumbnail",
+        "banner": "img/rlrts_banner.png",
+        "bannerAlt": "Banner image for the RTS-Roguelike Project",
+        "tags": [
+            "unity",
+            "csharp",
+            "game-design",
+            "visual-studio-code",
+            "basecamp",
+            "trello"
+        ],
+        "abstract": "A group project where we mixed the genres of RTS & Roguelike into a seamless innovative experience for beginner players. It's currently still under development and planning to be released in 2026!",
+        "links": [
+            {
+                "label": "Website",
+                "url": "https://dtc-wsuv.org/tmattole24/InteractiveGDD/",
+                "icon": "svg/web_icon.svg",
+                "iconAlt": "",
+                "style": "icon",
+                "ariaLabel": "Open RTS-Roguelike project website"
+            }
+        ],
+        "roleHighlights": [
+            "Hired and onboarded 14 people across multiple disciplines.",
+            "Coordinated group work in Basecamp for teams working in Unity, Blender, Substance Painter, and C#.",
+            "Programmed unique mechanics in Unity 6 using C#.",
+            "Conceptualized the game from the ground up."
+        ]
+    },
+    {
+        "id": "tictactotalwar",
+        "title": "Tic-Tac-Total War",
+        "role": "Project Manager and Programmer",
+        "date": "January - April 2025",
+        "cardTitle": "Tic-Tac-Total War - Project Manager and Programmer",
+        "thumbnail": "img/tictactotalwar_banner.png",
+        "thumbnailAlt": "Tic-Tac-Total War Project Thumbnail",
+        "banner": "img/tictactotalwar_banner.png",
+        "bannerAlt": "Banner image for the Tic-Tac-Total War Project",
+        "tags": [
+            "unity",
+            "csharp",
+            "game-design",
+            "visual-studio-code",
+            "trello",
+            "github"
+        ],
+        "abstract": "This project was created as a group effort where we mixed each of our original ideas into one brand new idea! The goal of the game is to claim 3 squares in a row similar to Tic-Tac-Toe. However, the player must launch soldiers onto the board to claim said squares. They obtain soldiers through the shop with each square they claim adding to a passive income they can use to buy even more soldiers.",
+        "links": [
+            {
+                "url": "https://leviathansrose.itch.io/tic-tac-total-war",
+                "icon": "svg/itchio_logo.svg",
+                "iconAlt": "The logo for the Itch.io webpage.",
+                "style": "itch-logo",
+                "ariaLabel": "Open Tic-Tac-Total War Itch.io page"
+            },
+            {
+                "url": "https://github.com/forgotten-ancient/Tic-Tac-Total-War",
+                "icon": "svg/github_logo.svg",
+                "iconAlt": "The logo for the GitHub webpage.",
+                "style": "itch-logo",
+                "ariaLabel": "Open Tic-Tac-Total War GitHub repository"
+            }
+        ],
+        "roleHighlights": [
+            "Managed a group of 4 other programmers working in Unity, C#, and Trello.",
+            "Organized the project within GitHub and solved any merge conflicts that arose."
+        ]
+    }
+]
