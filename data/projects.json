@@ -111,6 +111,40 @@
         ]
     },
     {
+        "id": "thepuzzle",
+        "title": "The Puzzle",
+        "role": "Programmer",
+        "date": "May 2024",
+        "cardTitle": "The Puzzle - Programmer",
+        "thumbnail": "img/thepuzzle.png",
+        "thumbnailAlt": "The Puzzle Project Thumbnail",
+        "banner": "img/thepuzzle.png",
+        "bannerAlt": "Banner image for the The Puzzle Project",
+        "tags": [
+            "game-design",
+            "javascript",
+            "html",
+            "visual-studio-code",
+            "github"
+        ],
+        "abstract": "This project was created as a relatable narrative piece representing what its like deciding a major in school. The timer is there to add stress onto the user just like how it feels like there is a time limit on choosing a major.",
+        "links": [
+            {
+                "label": "Website",
+                "url": "https://dtc-wsuv.org/tmattole24/narrative/",
+                "icon": "svg/web_icon.svg",
+                "iconAlt": "",
+                "style": "icon",
+                "ariaLabel": "Open 354 Hypermedia project website"
+            }
+        ],
+        "roleHighlights": [
+            "Programmed Javascript and HTML in Visual Studio Code",
+            "Researched on many sites such as Stack Overflow, Youtube, and Phind.",
+            "Published the site onto GitHub where it is now managed."
+        ]
+    },
+    {
         "id": "paybackprank",
         "title": "Payback Prank",
         "role": "Programmer",
