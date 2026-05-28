@@ -221,5 +221,43 @@
             "Programmed in C# on Unity 6 using Visual Studio Code.",
             "Designed and created the game from complete scratch."
         ]
+    },
+    {
+        "id": "spst",
+        "title": "Single Page Single Topic",
+        "role": "Programmer",
+        "date": "February 2024",
+        "cardTitle": "Single Page Single Topic - Programmer",
+        "thumbnail": "img/spst.jpg",
+        "thumbnailAlt": "Single Page Single Topic Project Thumbnail",
+        "banner": "img/spst.jpg",
+        "bannerAlt": "Banner image for the 354 Single Page Single Topic Project",
+        "tags": [
+            "html",
+            "github",
+            "visual-studio-code"
+        ],
+        "abstract": "This was a joke website based on a popular meme except targeted toward Minecraft modding. The goal was to program it as a single page focused on a single topic only using HTML.",
+        "links": [
+            {
+                "label": "Website",
+                "url": "https://dtc-wsuv.org/tmattole24/spst-project/",
+                "icon": "svg/web_icon.svg",
+                "iconAlt": "",
+                "style": "icon",
+                "ariaLabel": "Open Single Page Single Topic project website"
+            },
+            {
+                "url": "https://github.com/LeviathansRose/TM355SPSTWebsite",
+                "icon": "svg/github_logo.svg",
+                "iconAlt": "The logo for the GitHub webpage.",
+                "style": "itch-logo",
+                "ariaLabel": "Open Single Page Single Topic GitHub repository"
+            }
+        ],
+        "roleHighlights": [
+            "Programmed in HTML using Visual Studio Code.",
+            "Designed and created from complete scratch."
+        ]
     }
 ]
