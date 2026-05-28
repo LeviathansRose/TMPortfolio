@@ -697,8 +697,9 @@ body {
 .project-hero:has(img),
 .project-hero:has(picture),
 .project-hero:has(video) {
-    width: 100%;
-    height: max(220px, 32vw);
+    width: fit-content;
+    max-width: 100%;
+    height: var(--project-hero-height);
     min-height: 0;
     background: transparent;
 }
@@ -713,6 +714,14 @@ body {
     object-fit: contain;
     object-position: center;
     border-radius: var(--radius);
+}
+
+.project-hero picture img {
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
 }
 
 .project-hero p,
