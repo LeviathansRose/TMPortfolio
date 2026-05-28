@@ -109,5 +109,69 @@
             "Managed a group of 4 other programmers working in Unity, C#, and Trello.",
             "Organized the project within GitHub and solved any merge conflicts that arose."
         ]
+    },
+    {
+        "id": "paybackprank",
+        "title": "Payback Prank",
+        "role": "Programmer",
+        "date": "April 2026",
+        "cardTitle": "Payback Prank - Programmer",
+        "thumbnail": "img/paybackprank.png",
+        "thumbnailAlt": "Payback Prank Project Thumbnail",
+        "banner": "img/paybackprank.png",
+        "bannerAlt": "Banner image for the Tic-Tac-Total War Project",
+        "tags": [
+            "javascript",
+            "html",
+            "github",
+            "visual-studio-code"
+        ],
+        "abstract": "This project was created for my DTC 354 Final. I wanted to create a digital storytelling experience where the viewer would be clicking through a site similar to reddit. I made the site 'feel' functional with the ability to expand comment sections, like or dislike comments, etc.",
+        "links": [
+            {
+                "label": "Website",
+                "url": "https://dtc-wsuv.org/tmattole24/354final/",
+                "icon": "svg/web_icon.svg",
+                "iconAlt": "",
+                "style": "icon",
+                "ariaLabel": "Open Payback Prank project website"
+            }
+        ],
+        "roleHighlights": [
+            "Programmed in Javascript and HTML on Visual Studio Code.",
+            "Project was uploaded onto GitHub and is now managed there."
+        ]
+    },
+    {
+        "id": "354hypermedia",
+        "title": "354 Hypermedia Project",
+        "role": "Programmer",
+        "date": "April 2026",
+        "cardTitle": "354 Hypermedia Project - Programmer",
+        "thumbnail": "img/354hypermedia.png",
+        "thumbnailAlt": "354 Hypermedia Project Thumbnail",
+        "banner": "img/354hypermedia.png",
+        "bannerAlt": "Banner image for the 354 Hypermedia Project",
+        "tags": [
+            "game-design",
+            "csharp",
+            "unity",
+            "visual-studio-code"
+        ],
+        "abstract": "This project was created for my DTC 354 Hypermedia Project. I really wanted to simulate an environment and have the player influence said environment. It was my first stab at trying to create a morality system by demonstrating the harmful effects the player can have on their environment.",
+        "links": [
+            {
+                "label": "Website",
+                "url": "https://dtc-wsuv.org/tmattole24/354hypermedia/",
+                "icon": "svg/web_icon.svg",
+                "iconAlt": "",
+                "style": "icon",
+                "ariaLabel": "Open 354 Hypermedia project website"
+            }
+        ],
+        "roleHighlights": [
+            "Programmed in C# on Unity 6 using Visual Studio Code.",
+            "Designed and created the game from complete scratch."
+        ]
     }
 ]
