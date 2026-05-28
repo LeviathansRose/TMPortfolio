@@ -111,6 +111,47 @@
         ]
     },
     {
+        "id": "cowardlyblocks",
+        "title": "Cowardly Blocks",
+        "role": "Programmer",
+        "date": "April 2025",
+        "cardTitle": "Cowardly Blocks - Programmer",
+        "thumbnail": "img/cowardlyblocks.jpg",
+        "thumbnailAlt": "Cowardly Blocks Project Thumbnail",
+        "banner": "img/cowardlyblocks.jpg",
+        "bannerAlt": "Banner image for the Cowardly Blocks Project",
+        "tags": [
+            "html",
+            "github",
+            "game-design",
+            "javascript",
+            "visual-studio-code"
+        ],
+        "abstract": "In this website I tried to create a game using RTS-like controls except in a completely different genre. The result was an interesting mix of strategy and luck in a game that gets exponentially harder.",
+        "links": [
+            {
+                "label": "Website",
+                "url": "https://dtc-wsuv.org/tmattole24/final477/",
+                "icon": "svg/web_icon.svg",
+                "iconAlt": "",
+                "style": "icon",
+                "ariaLabel": "Open Cowardly Blocks project website"
+            },
+            {
+                "url": "https://github.com/LeviathansRose/TM477CowardlyBlocks",
+                "icon": "svg/github_logo.svg",
+                "iconAlt": "The logo for the GitHub webpage.",
+                "style": "itch-logo",
+                "ariaLabel": "Open Cowardly Blocks GitHub repository"
+            }
+        ],
+        "roleHighlights": [
+            "Programmed in HTML & Javascript using Visual Studio Code.",
+            "Designed and created from complete scratch.",
+            "Published the site onto GitHub where it is now managed."
+        ]
+    },
+    {
         "id": "thepuzzle",
         "title": "The Puzzle",
         "role": "Programmer",
@@ -231,7 +272,7 @@
         "thumbnail": "img/spst.jpg",
         "thumbnailAlt": "Single Page Single Topic Project Thumbnail",
         "banner": "img/spst.jpg",
-        "bannerAlt": "Banner image for the 354 Single Page Single Topic Project",
+        "bannerAlt": "Banner image for the Single Page Single Topic Project",
         "tags": [
             "html",
             "github",
