@@ -24,6 +24,34 @@
         return /\.(mp4|webm|ogg)$/i.test(path);
     }
 
+    function getMediaType(path) {
+        return isVideoPath(path) ? "video" : "image";
+    }
+
+    function getProjectMedia(project) {
+        const media = Array.isArray(project.media) && project.media.length > 0 ? project.media : [project.banner];
+
+        return media
+            .map(function (item) {
+                if (typeof item === "string") {
+                    return {
+                        src: item,
+                        type: getMediaType(item)
+                    };
+                }
+
+                return {
+                    src: item.src,
+                    type: item.type || getMediaType(item.src || ""),
+                    alt: item.alt,
+                    label: item.label
+                };
+            })
+            .filter(function (item) {
+                return item.src;
+            });
+    }
+
     function getProjectBannerAlt(project) {
         return "Banner image for the " + project.title + " Project";
     }
@@ -57,32 +85,117 @@
         return "Open " + project.title + " " + getLinkType(link);
     }
 
-    function renderHero(project) {
-        const hero = document.querySelector("#project-hero");
-
-        if (!hero || !project.banner) {
-            return;
-        }
-
-        hero.innerHTML = "";
-
-        if (isVideoPath(project.banner)) {
+    function createMediaElement(project, item) {
+        if (item.type === "video") {
             const video = document.createElement("video");
-            video.src = project.banner;
-            video.setAttribute("aria-label", getProjectVideoLabel(project));
+            video.src = item.src;
+            video.setAttribute("aria-label", item.label || getProjectVideoLabel(project));
             video.controls = true;
             video.autoplay = true;
             video.muted = true;
             video.loop = true;
             video.playsInline = true;
-            hero.appendChild(video);
-            return;
+            return video;
         }
 
         const image = document.createElement("img");
-        image.src = project.banner;
-        image.alt = getProjectBannerAlt(project);
-        hero.appendChild(image);
+        image.src = item.src;
+        image.alt = item.alt || getProjectBannerAlt(project);
+        return image;
+    }
+
+    function renderHero(project) {
+        const hero = document.querySelector("#project-hero");
+        const mediaItems = getProjectMedia(project);
+        let activeIndex = 0;
+
+        if (!hero || mediaItems.length === 0) {
+            return;
+        }
+
+        function renderActiveMedia() {
+            const mediaFrame = hero.querySelector(".project-carousel-media");
+            const counter = hero.querySelector(".project-carousel-counter");
+            const dots = Array.from(hero.querySelectorAll(".project-carousel-dot"));
+
+            if (!mediaFrame) {
+                return;
+            }
+
+            mediaFrame.innerHTML = "";
+            mediaFrame.appendChild(createMediaElement(project, mediaItems[activeIndex]));
+
+            if (counter) {
+                counter.textContent = activeIndex + 1 + " / " + mediaItems.length;
+            }
+
+            dots.forEach(function (dot, index) {
+                const isActive = index === activeIndex;
+                dot.classList.toggle("is-active", isActive);
+                dot.setAttribute("aria-current", String(isActive));
+            });
+        }
+
+        function showMedia(index) {
+            activeIndex = (index + mediaItems.length) % mediaItems.length;
+            renderActiveMedia();
+        }
+
+        hero.innerHTML = "";
+        hero.classList.toggle("has-carousel", mediaItems.length > 1);
+
+        const mediaFrame = document.createElement("div");
+        mediaFrame.className = "project-carousel-media";
+        hero.appendChild(mediaFrame);
+
+        if (mediaItems.length > 1) {
+            const previousButton = document.createElement("button");
+            previousButton.className = "project-carousel-button project-carousel-button--previous";
+            previousButton.type = "button";
+            previousButton.setAttribute("aria-label", "Show previous project media");
+            previousButton.innerHTML = '<span class="project-carousel-icon" aria-hidden="true"></span>';
+            previousButton.addEventListener("click", function () {
+                showMedia(activeIndex - 1);
+            });
+
+            const nextButton = document.createElement("button");
+            nextButton.className = "project-carousel-button project-carousel-button--next";
+            nextButton.type = "button";
+            nextButton.setAttribute("aria-label", "Show next project media");
+            nextButton.innerHTML = '<span class="project-carousel-icon" aria-hidden="true"></span>';
+            nextButton.addEventListener("click", function () {
+                showMedia(activeIndex + 1);
+            });
+
+            const status = document.createElement("div");
+            status.className = "project-carousel-status";
+
+            const counter = document.createElement("span");
+            counter.className = "project-carousel-counter";
+
+            const dots = document.createElement("div");
+            dots.className = "project-carousel-dots";
+            dots.setAttribute("aria-label", "Project media slides");
+
+            mediaItems.forEach(function (item, index) {
+                const dot = document.createElement("button");
+                dot.className = "project-carousel-dot";
+                dot.type = "button";
+                dot.setAttribute("aria-label", "Show project media " + (index + 1));
+                dot.addEventListener("click", function () {
+                    showMedia(index);
+                });
+                dots.appendChild(dot);
+            });
+
+            status.appendChild(counter);
+            status.appendChild(dots);
+            hero.appendChild(previousButton);
+            hero.appendChild(nextButton);
+            hero.appendChild(status);
+        }
+
+        renderActiveMedia();
     }
 
     function renderLinks(project) {
