@@ -709,13 +709,15 @@ body {
 }
 
 .project-hero.has-carousel img,
-.project-hero.has-carousel video {
+.project-hero.has-carousel video,
+.project-hero.has-carousel iframe {
     width: 100%;
 }
 
 .project-hero:has(img),
 .project-hero:has(picture),
-.project-hero:has(video) {
+.project-hero:has(video),
+.project-hero:has(iframe) {
     width: fit-content;
     max-width: 100%;
     height: var(--project-hero-height);
@@ -729,7 +731,8 @@ body {
 
 .project-hero img,
 .project-hero picture,
-.project-hero video {
+.project-hero video,
+.project-hero iframe {
     display: block;
     width: auto;
     max-width: 100%;
@@ -737,6 +740,16 @@ body {
     object-fit: contain;
     object-position: center;
     border-radius: var(--radius);
+}
+
+.project-hero iframe {
+    width: min(100%, 1080px);
+    border: 0;
+    aspect-ratio: 16 / 9;
+}
+
+.project-hero:has(iframe) {
+    width: 100%;
 }
 
 .project-hero picture img {

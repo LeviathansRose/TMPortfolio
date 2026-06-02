@@ -24,8 +24,47 @@
         return /\.(mp4|webm|ogg)$/i.test(path);
     }
 
+    function isYouTubeUrl(path) {
+        return /(?:youtube\.com|youtu\.be)/i.test(path);
+    }
+
     function getMediaType(path) {
+        if (isYouTubeUrl(path)) {
+            return "youtube";
+        }
+
         return isVideoPath(path) ? "video" : "image";
+    }
+
+    function getYouTubeEmbedUrl(path) {
+        try {
+            const url = new URL(path);
+            const host = url.hostname.replace(/^www\./, "");
+
+            if (host === "youtu.be") {
+                return "https://www.youtube.com/embed/" + url.pathname.replace("/", "");
+            }
+
+            if (host === "youtube.com" || host === "m.youtube.com") {
+                if (url.pathname.startsWith("/embed/")) {
+                    return path;
+                }
+
+                if (url.pathname.startsWith("/shorts/")) {
+                    return "https://www.youtube.com/embed/" + url.pathname.split("/")[2];
+                }
+
+                const videoId = url.searchParams.get("v");
+
+                if (videoId) {
+                    return "https://www.youtube.com/embed/" + videoId;
+                }
+            }
+        } catch (error) {
+            return path;
+        }
+
+        return path;
     }
 
     function getProjectMedia(project) {
@@ -86,6 +125,16 @@
     }
 
     function createMediaElement(project, item) {
+        if (item.type === "youtube") {
+            const iframe = document.createElement("iframe");
+            iframe.src = getYouTubeEmbedUrl(item.src);
+            iframe.title = item.label || project.title + " project video";
+            iframe.loading = "lazy";
+            iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+            iframe.allowFullscreen = true;
+            return iframe;
+        }
+
         if (item.type === "video") {
             const video = document.createElement("video");
             video.src = item.src;

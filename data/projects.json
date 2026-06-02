@@ -8,13 +8,13 @@
         "thumbnail": "img/fireflies_scout.jpg",
         "media": [
             "img/fireflies_banner.jpg",
-            "vid/firefliesgameplay.mp4",
+            "https://youtu.be/39p6i8m_-Mc",
             "img/nightlight.jpg",
             "img/flare.jpg",
             "img/zapfly.jpg",
-            "vid/geckomodel.mp4",
+            "https://youtu.be/0iPUatZKjCI",
             "img/fireflies.jpg",
-            "vid/scout-bones.mp4"
+            "https://youtu.be/0d27lYuDkzc"
         ],
         "tags": [
             "unreal",
@@ -113,7 +113,7 @@
         "date": "March 2025",
         "cardTitle": "SuperGame Animated Poster - Designer",
         "thumbnail": "img/supergameposter.jpg",
-        "banner": "vid/supergameposter.mp4",
+        "banner": "https://youtube.com/shorts/hbwmNJx3flc",
         "tags": [
             "adobe-after-effects",
             "adobe-illustrator"
@@ -131,7 +131,7 @@
         "date": "March 2026",
         "cardTitle": "Fire Alarm - Editor",
         "thumbnail": "img/firealarm.jpg",
-        "banner": "vid/firealarm.mp4",
+        "banner": "https://youtu.be/OF5APj43Nvw",
         "tags": [
             "adobe-premiere-pro"
         ],
@@ -183,7 +183,7 @@
         "date": "April 2025",
         "cardTitle": "Unfriendly Encounter - Designer",
         "thumbnail": "img/unfriendlyencounter.jpg",
-        "banner": "vid/unfriendlyencounter.mp4",
+        "banner": "https://youtube.com/shorts/DgfJjpureaE",
         "tags": [
             "adobe-photoshop",
             "adobe-audition"
