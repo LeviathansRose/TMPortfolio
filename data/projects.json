@@ -14,14 +14,17 @@
             "img/zapfly.jpg",
             "https://youtu.be/0iPUatZKjCI",
             "img/fireflies.jpg",
-            "https://youtu.be/0d27lYuDkzc"
+            "https://youtu.be/0d27lYuDkzc",
+            "img/designhouse.jpg"
         ],
         "tags": [
             "unreal",
             "game-design",
             "perforce",
             "slack",
-            "basecamp"
+            "basecamp",
+            "adobe-photoshop",
+            "figma"
         ],
         "abstract": "A vertical slice of a 3D stealth puzzle-action adventure game set within a single section of a whimsical, dark cavern environment where light is both a tool and a risk. This project was created with and for Noctua Interactive.",
         "links": [
@@ -104,6 +107,38 @@
         "roleHighlights": [
             "Managed a group of 4 other programmers working in Unity, C#, and Trello.",
             "Organized the project within GitHub and solved any merge conflicts that arose."
+        ]
+    },
+    {
+        "id": "portfolio",
+        "title": "Portfolio Website",
+        "role": "Designer & Programmer",
+        "date": "May 2026",
+        "cardTitle": "Portfolio Website - Designer & Programmer",
+        "thumbnail": "img/portfoliofigma.jpg",
+        "media": [
+            "img/portfoliofigma.jpg",
+            "img/portfoliocoding.jpg"
+        ],
+        "tags": [
+            "adobe-illustrator",
+            "figma",
+            "html",
+            "javascript",
+            "github"
+        ],
+        "links": [
+            {
+                "url": "https://github.com/LeviathansRose/TMPortfolio",
+                "icon": "svg/github_logo.svg",
+                "style": "itch-logo"
+            }
+        ],
+        "abstract": "This portfolio website was designed with ease of access in mind. The most important feature of the site is filtering projects allowing users to search for projects they are interested in by skill. The site was also made with accessibility in mind, making sure colors contrast, text is large and readable, and aria-labels and alt text are in place wherever they can be. Moreover, the entire site is built with Javascript allowing me to add new projects with a simple json file.",
+        "roleHighlights": [
+            "Designed website with figma, creating a wireframe then building up a prototype with components.",
+            "Made use of Javascript libraries like Isotope Filtering",
+            "Managed the version control of the website through GitHub."
         ]
     },
     {
