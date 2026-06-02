@@ -142,6 +142,23 @@
         ]
     },
     {
+        "id": "hummingbirds",
+        "title": "Hummingbirds",
+        "role": "Editor",
+        "date": "September 2024",
+        "cardTitle": "Hummingbirds - Editor",
+        "thumbnail": "img/hummingbirds.jpg",
+        "banner": "https://www.youtube.com/watch?v=_JwnRm_CASo",
+        "tags": [
+            "adobe-premiere-pro"
+        ],
+        "abstract": "This short film was designed to be very high-energy, like a hummingbird. The piece was synced to 'Queen of the Night aria' by Mozart along with Creative Commons videos.",
+        "roleHighlights": [
+            "Sourced completely Creative Common Videos.",
+            "Fully edited and produced this video."
+        ]
+    },
+    {
         "id": "cowardlyblocks",
         "title": "Cowardly Blocks",
         "role": "Programmer",
