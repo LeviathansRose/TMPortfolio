@@ -5,15 +5,15 @@
         "role": "Game Team Leader",
         "date": "January - May 2026",
         "cardTitle": "Fireflies - Game Team Leader",
-        "thumbnail": "img/fireflies_scout.png",
+        "thumbnail": "img/fireflies_scout.jpg",
         "media": [
             "img/fireflies_banner.jpg",
             "vid/firefliesgameplay.mp4",
-            "img/nightlight.png",
-            "img/flare.png",
-            "img/zapfly.png",
+            "img/nightlight.jpg",
+            "img/flare.jpg",
+            "img/zapfly.jpg",
             "vid/geckomodel.mp4",
-            "img/fireflies.png",
+            "img/fireflies.jpg",
             "vid/scout-bones.mp4"
         ],
         "tags": [
@@ -45,8 +45,8 @@
         "role": "Project Manager and Programmer",
         "date": "April 2025 - Present",
         "cardTitle": "RTS-Roguelike - Project Manager and Programmer",
-        "thumbnail": "img/rlrts_banner.png",
-        "banner": "img/rlrts_banner.png",
+        "thumbnail": "img/rlrts_banner.jpg",
+        "banner": "img/rlrts_banner.jpg",
         "tags": [
             "unity",
             "csharp",
@@ -78,8 +78,8 @@
         "role": "Project Manager and Programmer",
         "date": "January - April 2025",
         "cardTitle": "Tic-Tac-Total War - Project Manager and Programmer",
-        "thumbnail": "img/tictactotalwar_banner.png",
-        "banner": "img/tictactotalwar_banner.png",
+        "thumbnail": "img/tictactotalwar_banner.jpg",
+        "banner": "img/tictactotalwar_banner.jpg",
         "tags": [
             "unity",
             "csharp",
@@ -182,7 +182,7 @@
         "role": "Designer",
         "date": "April 2025",
         "cardTitle": "Unfriendly Encounter - Designer",
-        "thumbnail": "img/unfriendlyencounter.png",
+        "thumbnail": "img/unfriendlyencounter.jpg",
         "banner": "vid/unfriendlyencounter.mp4",
         "tags": [
             "adobe-photoshop",
