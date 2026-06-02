@@ -167,5 +167,22 @@
             "Designed the thumbnail in Adobe Photoshop.",
             "Created most of the sounds using Foley techniques."
         ]
+    },
+    {
+        "id": "firealarm",
+        "title": "Fire Alarm",
+        "role": "Editor",
+        "date": "March 2026",
+        "cardTitle": "Fire Alarm - Editor",
+        "thumbnail": "img/firealarm.jpg",
+        "banner": "vid/firealarm.mp4",
+        "tags": [
+            "adobe-premiere-pro"
+        ],
+        "abstract": "You're running late to class, todays the test, what if you pulled the Fire Alarm? Would that be better than being late? That's the question we wanted to contemplate with this video. It was designed to be quite humorous in interpreting this question.",
+        "roleHighlights": [
+            "Collaborated and filmed with 3 other people. While recruiting other volunteers to act.",
+            "Fully edited and produced this video."
+        ]
     }
 ]
