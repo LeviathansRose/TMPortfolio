@@ -48,8 +48,13 @@
         "role": "Project Manager and Programmer",
         "date": "April 2025 - Present",
         "cardTitle": "RTS-Roguelike - Project Manager and Programmer",
-        "thumbnail": "img/rlrts_banner.jpg",
-        "banner": "img/rlrts_banner.jpg",
+        "thumbnail": "img/rtsrlgameplay.jpg",
+        "media": [
+            "img/rtsrlgameplay.jpg",
+            "https://www.youtube.com/watch?v=I78G1rGEQ90",
+            "img/rtsrl-coding.jpg",
+            "img/rtsrl-versionctrl.jpg"
+        ],
         "tags": [
             "unity",
             "csharp",
